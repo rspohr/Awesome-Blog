@@ -1,10 +1,17 @@
-1306358839
+1306516378
 AddMetadataToPosts	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110525201529_add_metadata_to_posts.rb	class AddMetadataToPosts 
 Application	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/config/application.rb	  class Application 
 ApplicationController	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/helpers/application_helper.rb	module ApplicationHelper
 AwesomeBlogofAwesomeness	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/config/application.rb	module AwesomeBlogofAwesomeness
 BrowsingTest	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/test/performance/browsing_test.rb	class BrowsingTest 
+Comment	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/models/comment.rb	class Comment 
+CommentTest	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/test/unit/comment_test.rb	class CommentTest 
+CommentsController	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/controllers/comments_controller.rb	class CommentsController 
+CommentsControllerTest	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/test/functional/comments_controller_test.rb	class CommentsControllerTest 
+CommentsHelper	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/helpers/comments_helper.rb	module CommentsHelper
+CommentsHelperTest	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/test/unit/helpers/comments_helper_test.rb	class CommentsHelperTest 
+CreateComments	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110526201846_create_comments.rb	class CreateComments 
 CreatePosts	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110524182654_create_posts.rb	class CreatePosts 
 Post	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/models/post.rb	class Post 
 PostTest	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/test/unit/post_test.rb	class PostTest 
@@ -38,6 +45,7 @@ collect	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/
 compact	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function compact()
 concat	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function concat()
 copy	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function copy(methods, destination, onlyIfAbsent)
+create	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/controllers/comments_controller.rb	  def create
 create	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/controllers/posts_controller.rb	  def create
 create	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function create()
 cssNameFor	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function cssNameFor(key)
@@ -55,6 +63,7 @@ dirNodeCheck	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascr
 dispatch	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/effects.js	function dispatch(effect, eventName)
 down	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110524182654_create_posts.rb	  def self.down
 down	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110525201529_add_metadata_to_posts.rb	  def self.down
+down	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110526201846_create_comments.rb	  def self.down
 each	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function each(iterator)
 each	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function each(iterator, context)
 eachSlice	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function eachSlice(number, iterator, context)
@@ -203,6 +212,7 @@ uniq	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/pro
 unset	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function unset(key)
 up	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110524182654_create_posts.rb	  def self.up
 up	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110525201529_add_metadata_to_posts.rb	  def self.up
+up	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/db/migrate/20110526201846_create_comments.rb	  def self.up
 update	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/app/controllers/posts_controller.rb	  def update
 update	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function update(array, args)
 update	C:/Users/Rodrigo Spohr/blah/AwesomeBlogofAwesomeness/public/javascripts/prototype.js	function update(element, content)
