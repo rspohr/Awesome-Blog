@@ -73,17 +73,30 @@ div.field, div.actions {
   text-shadow: #fff 0 1px 0;
 }
 
-#post_details {
+/*Show comments table*/
+
+.show_comments td {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #aaa;
+  text-shadow: #aaa 0 1px 0;
+}
+
+
+#post_details,
+#show_post {
   border: 1px solid #aaa;
   border-radius: 10px;
 }
 
-#post_details label{
+#post_details label,
+#show_post label {
   font-size: 15px;
   font-weight: bolder;
 }
 
-#post_details legend{
+#post_details legend, 
+#show_post legend {
   border: 1px solid #aaa;
   padding: 5px 10px;
   font-size: 20px;

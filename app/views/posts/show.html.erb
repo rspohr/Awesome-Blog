@@ -1,40 +1,40 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
-
-<p>
-  <b>Submit date:</b>
-  <%= @post.submit_date %>
-</p>
-
-<p>
-  <b>Message:</b>
-  <%= @post.message %>
-</p>
-
-<p>
-  <b>Tag:</b>
-  <%= @post.tag %>
-</p>
-
-<p>
-  <b>Metadata:</b>
-  <%= @post.metadata %>
-</p>
-
+<fieldset id="show_post">
+  <legend>Post <%= @post.title %> </legend>  
+  <p>
+    <b>Submit date:</b>
+    <%= @post.submit_date %>
+  </p>
+  
+  <p>
+    <b>Message:</b>
+    <br>
+    <%= @post.message %>
+  </p>
+  
+  <p>
+    <b>Tag:</b>
+    <%= @post.tag %>
+  </p>
+  
+  <p>
+    <b>Metadata:</b>
+    <%= @post.metadata %>
+  </p>
+</fieldset>
 <p>
   <b>Comments:</b>
   <%= render 'comments/form' %>
   
-  <% @post.comments.each do |post| %>
   
-    <%= post.commenter %>
-    <%= post.body %>
-  
+  <table class="show_comments">
+    <% @post.comments.each do |post| %>
+    <tr>
+      <td>Commenter: <%= post.commenter %></td>
+      <td>Message: <%= post.body %></td>
+    </tr>
   <% end %>
+</table>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
